@@ -13,7 +13,8 @@ my_dict={
         'f':{'lol':['l','o','l']}
     },
 }
-print(my_dict['foo'])
 print(my_dict['foo']['b'])
-my_list.append(44)
-print(my_list)
+print(my_dict['bar']['d'])
+my_set=set(my_dict['bar']['d'])
+my_set.add(9)
+print(my_set)
